@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A collection of Tools, Agents and Skills for agentic code generation. This repo is focussed on the OpenCode agent, Agents and Skilla are comaptible with Claude Code and Copilot CLI. Tools are not.
+A collection of Tools, Agents and Skills for agentic code generation. This repo is focussed on the OpenCode agent, Agents and Skills are compatible with Claude Code and Copilot CLI. Tools are not compatible.
 
 ## OpenCode Referrences
 
@@ -12,17 +12,20 @@ A collection of Tools, Agents and Skills for agentic code generation. This repo 
 
 ## Repo Layout
 
-Skills, tools and agents are organised into common usecases, with skills and tool adjacents to the agents that use them in the following structure:
+Skills, tools and agents are organised into folders relevant to there function:
 
 ```
 Repository root    
 │
-└───use case 
-│   └───agent
-│       │   AGENT.md
-│   └───skill
-│       │   SKILL.md
-│   └───tool
+└───agents
+│   │   agent1.md
+│   │   agent2.md
+└───skills
+│   └───skill1
+│      │   SKILL.md
+│   └───skill2
+│      │   SKILL.md
+│   └───tools
 │       │   tool_file.ts
 │       │   ...
 
